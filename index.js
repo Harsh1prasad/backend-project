@@ -57,7 +57,7 @@ app.get("/harshblog",(req,res)=>{
     res.send("<h2>welcome to my page</h2>")
 })
 
-app.get("/apiData",()=>{
+app.get("/apiData",(req,res)=>{
     res.json(githubData)
 })
 
